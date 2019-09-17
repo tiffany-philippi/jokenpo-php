@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2 {
+    text-align: center;
+    color: #585858;
+    margin: 20px 0 30px;
+}
+.form {
+    width: 20%;
+    margin: 0 auto;
+    background-color: #ededed;
+    border: 1px solid #bdbdbd;
+    border-radius: 20px;
+}
+.form .sign-in,
+.form .sign-up {
+    width: 100%;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.form .input label{
+    display: block;
+    font-weight: 600;
+    margin: 5px 0 2px 0;
+    font-size: 13px;
+}
+.form .input input{
+    border-radius: 3px;
+    border: 1px solid #bdbdbd;
+}
+button {
+    background-color: #585858;
+    border: 1px solid #585858;
+    border-radius: 5px;
+    margin-top: 25px;
+    width: 100px;
+    color: #fff;
+}
+.link-div {
+    width: 100%;
+    text-align: center;
+}
+.lnk-ref {
+    text-decoration: none;
+    font-size: 11px;
+}
+@media (min-width: 800px) and (max-width: 1110px) {
+    .form {
+        width: 80%;
+    }
+}
+@media (max-width: 800px) {
+    .form {
+        width: 50%;
+    }
+}
